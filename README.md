@@ -1,4 +1,4 @@
 # Wonkavator
 Elevator program with matplotlib library
-## Output
+## Sample Output
 ![](output_wokavator.png)
