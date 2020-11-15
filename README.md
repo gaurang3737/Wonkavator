@@ -1,5 +1,4 @@
 # Wonkavator
-Simulation of an elevator program with matplotlib library
 
 Wonkavator is like an elevator, but an elevator can only go up and down. A Wonkavator can go sideways, and slantways, and longways, and backways, amongst other things. In fact, it can take you to any room in an entire
 
@@ -7,7 +6,9 @@ Wonkavator is like an elevator, but an elevator can only go up and down. A Wonka
 ![](output_wokavator.png)
 
 A blue dot for each person not yet in the elevator / not yet arrived at their destination
+
 A red dot for the destinations of the people currently in the elevator
+
 A green dot for the elevator itself
 
 This program is a simulation of a building in which the Wonkavator will move around. The building will be represented by a 3D grid, where each coordinate in the grid represents a room. The Wonkavator can travel from room to room by moving at most 1 unit in any direction. For example, it could move from point (2, 3, 4) to point (2, 4, 5), by making a movement of (0, 1, 1). However, it is illegal to make a move from (1, 1, 1) to (3, 1, 1), as we can move a maximum of 1, not 2, in any direction. A move of (0, 0, 0) (i.e., staying in place) is also invalid. Further, it is invalid to move beyond the bounds of the grid (i.e., out of the building). If the Wonkavator is at coordinate (5, 5, 4), and the grid is of size 6x6x6, then it is invalid to move in the direction (1, 0, 0), as that would bring the Wonkavator out of the grid.
